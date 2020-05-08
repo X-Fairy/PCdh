@@ -1,0 +1,292 @@
+
+
+@text-colorA: #333333;
+body {
+  -webkit-font-smoothing: antialiased;
+}
+// /deep/ .hot {
+//   background-size: auto;
+//   background-repeat: no-repeat;
+//   background-position: center;
+// }
+
+.hot {
+  background-size: 100%;
+  min-height: 1730px;
+  margin-top: -6vw;
+  .box {
+    padding-top: 26vw;
+    padding-bottom: 480px;
+  }
+  .hots {
+    height: 690px;
+    border-radius: 15px;
+    border: solid 2px #ffffff;
+    box-shadow: 0 0 10px #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    .goods-item {
+      width: 555px;
+      height: 300px;
+      background-image: linear-gradient(0deg, #f3d8c4 0%, #ffffff 100%),
+        linear-gradient(#ffffff, #ffffff);
+      background-blend-mode: normal, normal;
+      border-radius: 15px;
+      border: solid 1px #ebbb98;
+      position: relative;
+      .goods-info {
+        color: #333333;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        width: 100%;
+        padding: 30px;
+        .hots-left {
+          margin-top: 30px;
+          .hots-text1 {
+            font-family: SourceHanSansCN-Regular;
+            font-size: 24px;
+          }
+          .hots-text2 {
+            font-family: SourceHanSansCN-Regular;
+            font-size: 16px;
+          }
+          .price {
+            margin-top: 20px;
+            color: #e1251b;
+            .num {
+              font-family: CenturyGothic-Bold;
+              font-size: 30px;
+              font-weight: bold;
+            }
+          }
+          .btn {
+            margin-top: 20px;
+            width: 120px;
+            height: 40px;
+            background-image: linear-gradient(-45deg, #f71b4b 0%, #fd5845 100%),
+              linear-gradient(#e1251b, #e1251b);
+            background-blend-mode: normal, normal;
+            border-radius: 5px;
+            line-height: 40px;
+            text-align: center;
+            color: #ffffff;
+          }
+        }
+        .hots-right {
+          margin-right: 30px;
+          width: 150px;
+          height: 229px;
+        }
+      }
+      .corner {
+        width: 74px;
+        height: 77px;
+        position: absolute;
+        top: -14px;
+        left: 53px;
+      }
+    }
+  }
+  .navType {
+    display: flex;
+    margin: 40px 0;
+    justify-content: space-between;
+    .nav-item {
+      width: 8.183vw;
+    height: 3.273vw;
+    background-blend-mode: normal, normal;
+    border-radius: 1.637vw;
+    line-height: 3.273vw;
+    text-align: center;
+    font-family: SourceHanSansCN-Regular;
+    font-size: 1.309vw;
+    letter-spacing: 0px;
+    }
+  }
+  .temp {
+    border-radius: 1.227vw;
+    width: 100%;
+    overflow: hidden;
+    padding: 0 1vw 4.91vw 1vw;
+    li {
+      float: left;
+      padding: 0.245vw 0.573vw;
+    }
+    .t_items {
+      position: relative;
+      width: 275px;
+      height: 440px;
+      background-color: white;
+      margin-top: 20px;
+      .img {
+        width: 275px;
+        height: 275px;
+      }
+      .centerActive {
+        width: 100%;
+        position: absolute;
+        top: 60%;
+        background: white;
+      }
+      .num {
+        height: 31px;
+        border-bottom: solid 1px #e1252f;
+        line-height: 31px;
+        text-align: center;
+      }
+      .bottom {
+        font-family: SourceHanSansCN-Regular;
+        text-align: center;
+        color: @text-colorA;
+        font-size: 15px;
+        padding: 15px 0;
+      }
+      .cart {
+        padding: 0 20px;
+      }
+    }
+  }
+  .group {
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0 20px 20px 20px;
+    .t_items {
+      position: relative;
+      width: 285px;
+      height: 400px;
+      background-color: white;
+      margin-top: 20px;
+      .img {
+        width: 285px;
+        height: 250px;
+      }
+      .centerActive {
+        width: 100%;
+        position: absolute;
+        top: 60%;
+        background: white;
+      }
+      .num {
+        height: 31px;
+        border-bottom: solid 1px #e1252f;
+        line-height: 31px;
+        text-align: center;
+      }
+      .bottom {
+        font-family: SourceHanSansCN-Regular;
+        text-align: center;
+        color: @text-colorA;
+        font-size: 15px;
+        padding: 15px 0;
+      }
+
+      .cart {
+        padding: 0 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .text {
+          color: #999999;
+          font-family: SourceHanSansCN-Light;
+          font-size: 14px;
+        }
+        .ms-price {
+          display: flex;
+          align-items: flex-end;
+          .ms-num {
+            color: #e1251b;
+            font-size: 18px;
+            .p1 {
+              font-weight: bold;
+              font-size: 30px;
+            }
+            .p2 {
+              text-decoration: line-through;
+              color: #999;
+              font-size: 14px;
+              margin-left: 8px;
+            }
+          }
+        }
+        .btn {
+          width: 90px;
+          height: 40px;
+          text-align: center;
+          line-height: 40px;
+          background-image: linear-gradient(-45deg, #f71b4b 0%, #fd5845 100%),
+            linear-gradient(#e1251b, #e1251b);
+          background-blend-mode: normal, normal;
+          border-radius: 5px;
+          color: white;
+          box-shadow: 4px 4px 10px #ff9083;
+        }
+      }
+    }
+  }
+}
+/deep/ .ivu-progress {
+  padding: 0 20px 20px 20px;
+}
+.ms {
+  padding: 0 20px;
+  .card {
+    height: 70px;
+    border-radius: 10px;
+    background-size: 100% 100%;
+    display: flex;
+    padding: 15px 20px 0 20px;
+    align-items: center;
+    color: white;
+    .ms-left {
+      width: 35%;
+      display: flex;
+      .time {
+        font-family: CenturyGothic-Bold;
+        font-size: 24px;
+      }
+      .text {
+        margin: 0 10px;
+      }
+      /deep/ .uni-countdown__number {
+        width: 60px;
+        height: 35px;
+        box-shadow: inset 0px 5px 24px 0px #000000;
+        border-radius: 5px;
+        font-family: CenturyGothic-Bold;
+        font-size: 28px;
+        line-height: 32px;
+        text-align: center;
+      }
+      /deep/ .uni-countdown__splitor {
+        line-height: 30px;
+        font-family: CenturyGothic-Bold;
+        font-size: 30px;
+      }
+    }
+    .ms-right {
+      display: flex;
+      justify-content: space-around;
+      width: 60%;
+      .ms-item {
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        .i-date {
+          font-family: CenturyGothic-Bold;
+          font-size: 18px;
+          margin: 0 5px;
+        }
+        .i-text {
+          font-family: SourceHanSansCN-Light;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
+

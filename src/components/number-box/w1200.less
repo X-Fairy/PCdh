@@ -1,0 +1,61 @@
+
+@boxColor: #999999;
+.numbox {
+  display: flex;
+  justify-content: space-between;
+  .left {
+    display: flex;
+    align-items: center;
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+    color: @boxColor;
+    width: 100px;
+    background: white;
+  }
+  /deep/.ivu-input {
+    height: 25px;
+    color: @boxColor;
+    border: none !important;
+    text-align: center;
+    &:after,
+    &:before,
+    &:focus {
+      color: @boxColor;
+      outline: none;
+      border: none;
+      box-sizing: border-box;
+      box-shadow: none;
+    }
+  }
+  /deep/.btn {
+    border: none;
+    padding: 0 4px;
+    height: 25px;
+    &:hover {
+      color: #515a6e;
+      background-color: #eeeeee;
+    }
+    &:active {
+      color: white;
+      background-color: #67d0e2;
+    }
+    &:focus {
+      outline: none;
+      border: none;
+      box-sizing: border-box;
+      box-shadow: none;
+    }
+  }
+  /deep/ .btn-rad {
+    text-align: center;
+    height: 3vw;
+    background-color: #e1251b;
+    border-radius: 5px;
+    color: white;
+    border: 1px solid #e1251b;
+    min-width: 3vw !important;
+    font-size: 0.966vw;
+    padding: 0.4vw;
+  }
+}
+

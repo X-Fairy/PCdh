@@ -1,0 +1,135 @@
+.details {
+  background: white;
+  margin-top:15px ;
+  .heard {
+    font-family: SourceHanSansCN-Light;
+
+    color: #000000;
+  }
+  .content {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+
+    .info {
+      width: 1000px;
+      height: 440px;
+      display: flex;
+      border-right: 1px solid #e6e6e6;
+      .img {
+        width: 440px;
+        height: 440px;
+        .video_left{
+          // width: 100%;
+          // height: 100%;
+        }
+        .imgNav{
+          width: 100%;
+          display: flex;
+          justify-content: left;
+          align-items: center;
+          margin-top: 8px;;
+          .item{
+            width: 90px;
+            height: 90px;
+          }
+        }
+      }
+      .card {
+        width: 560px;
+        padding: 20px;
+        .name {
+          font-family: SourceHanSansCN-Regular;
+          font-size: 20px;
+          font-weight: bold;
+          color: #000;
+        }
+        .text {
+          display: flex;
+          align-items: flex-start;
+          width: 450px;
+          padding: 11px 10px;
+          //    border-bottom: 1px dotted #c9c9c9;
+          color: #000;
+          /deep/ .left {
+            margin-right: 10px;
+          }
+          .tit {
+            font-family: SourceHanSansCN-Light;
+            font-size: 14px;
+            width: 100px;
+          }
+          .cls {
+            display: flex;
+            flex-wrap: wrap;
+            /deep/ .ivu-btn {
+              &:focus {
+                box-shadow: none;
+              }
+              &:hover {
+                color: #e1251b;
+              }
+            }
+          }
+
+          .btn1 {
+            text-align: center;
+            padding: 0 10px;
+            height: 24px;
+            line-height: 24px;
+            background-color: white;
+            border-radius: 5px;
+            border: solid 1px #e6e6e6;
+            margin: 0px 10px 10px 0;
+          }
+          .btnActive {
+            border: 1px solid #e1251b;
+            color: #e1251b;
+          }
+          .num {
+           font-weight: bold;
+            font-size: 24px;
+            color: #e1252f;
+          }
+          .m_price {
+            font-size: 16px;
+            text-decoration: line-through;
+            color: #999;
+            margin-left: 8upx;
+          }
+        }
+        .cart {
+          width: 500px;
+        }
+      }
+    }
+    .recommend {
+      text-align: center;
+      .items {
+        width: 140px;
+        height: 140px;
+        margin: 10px 0;
+      }
+    }
+  }
+  .introduce {
+    color: #666;
+    border: 1px solid #e6e6e6;
+    width: 1000px;
+    .did {
+      padding: 10px;
+    }
+  }
+  .img {
+    width: 1000px;
+    background-repeat: no-repeat;
+  }
+  /deep/.submit {
+    width: 130px;
+    height: 40px;
+    background-color: #1d8c9f;
+    border-radius: 5px;
+    color: white;
+    margin-left: 10px;
+  }
+}

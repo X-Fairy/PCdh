@@ -1,0 +1,112 @@
+/* @font-face {
+    font-family: 'SourceHanSansCN-Bold';
+    src: url('./SourceHanSansCN/SourceHanSansCN-Bold.otf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+
+}
+
+@font-face {
+    font-family: 'SourceHanSansCN-ExtraLight';
+    src: url('./SourceHanSansCN/SourceHanSansCN-ExtraLight.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SourceHanSansCN-Heavy';
+    src: url('./SourceHanSansCN/SourceHanSansCN-Heavy.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SourceHanSansCN-Light';
+    src: url('./SourceHanSansCN/SourceHanSansCN-Light.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SourceHanSansCN-Medium';
+    src: url('./SourceHanSansCN/SourceHanSansCN-Medium.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SourceHanSansCN-Normal';
+    src: url('./SourceHanSansCN/SourceHanSansCN-Normal.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SourceHanSansCN-Regular';
+    src: url('./SourceHanSansCN/SourceHanSansCN-Regular.otf');
+    font-weight: normal;
+    font-style: normal;
+} */
+/* @font-face {
+  font-family: 'SourceHanSansCN-Bold';
+  src: url('./SourceHanSansCN/SourceHanSansCN-Bold.eot');
+  src: url('./SourceHanSansCN/SourceHanSansCN-Bold.eot?#iefix') format('embedded-opentype'),
+      url('./SourceHanSansCN/SourceHanSansCN-Bold.woff') format('woff'),
+      url('./SourceHanSansCN/SourceHanSansCN-Bold.ttf')  format('truetype'),
+      url('./SourceHanSansCN/SourceHanSansCN-Bold.svg#SourceHanSansCN-Bold') format('svg');
+}
+
+@font-face {
+    font-family: 'SourceHanSansCN-ExtraLight';
+    src: url('./SourceHanSansCN/SourceHanSansCN-ExtraLight.eot');
+    src: url('./SourceHanSansCN/SourceHanSansCN-ExtraLight.eot?#iefix') format('embedded-opentype'),
+      url('./SourceHanSansCN/SourceHanSansCN-ExtraLight.woff') format('woff'),
+      url('./SourceHanSansCN/SourceHanSansCN-ExtraLight.ttf')  format('truetype'),
+      url('./SourceHanSansCN/SourceHanSansCN-ExtraLight.svg#SourceHanSansCN-ExtraLight') format('svg');
+}
+
+@font-face {
+    font-family: 'SourceHanSansCN-Heavy';
+    src: url('./SourceHanSansCN/SourceHanSansCN-Heavy.eot');
+    src: url('./SourceHanSansCN/SourceHanSansCN-Heavy.eot?#iefix') format('embedded-opentype'),
+      url('./SourceHanSansCN/SourceHanSansCN-Heavy.woff') format('woff'),
+      url('./SourceHanSansCN/SourceHanSansCN-Heavy.ttf')  format('truetype'),
+      url('./SourceHanSansCN/SourceHanSansCN-Heavy.svg#SourceHanSansCN-Heavy') format('svg');
+}
+
+@font-face {
+    font-family: 'SourceHanSansCN-Light';
+    src: url('./SourceHanSansCN/SourceHanSansCN-Light.eot');
+    src: url('./SourceHanSansCN/SourceHanSansCN-Light.eot?#iefix') format('embedded-opentype'),
+      url('./SourceHanSansCN/SourceHanSansCN-Light.woff') format('woff'),
+      url('./SourceHanSansCN/SourceHanSansCN-Light.ttf')  format('truetype'),
+      url('./SourceHanSansCN/SourceHanSansCN-Light.svg#SourceHanSansCN-Light') format('svg');
+}
+
+@font-face {
+    font-family: 'SourceHanSansCN-Medium';
+    src: url('./SourceHanSansCN/SourceHanSansCN-Medium.eot');
+    src: url('./SourceHanSansCN/SourceHanSansCN-Medium.eot?#iefix') format('embedded-opentype'),
+      url('./SourceHanSansCN/SourceHanSansCN-Medium.woff') format('woff'),
+      url('./SourceHanSansCN/SourceHanSansCN-Medium.ttf')  format('truetype'),
+      url('./SourceHanSansCN/SourceHanSansCN-Medium.svg#SourceHanSansCN-Medium') format('svg');
+}
+
+@font-face {
+    font-family: 'SourceHanSansCN-Normal';
+    src: url('./SourceHanSansCN/SourceHanSansCN-Normal.eot');
+    src: url('./SourceHanSansCN/SourceHanSansCN-Normal.eot?#iefix') format('embedded-opentype'),
+      url('./SourceHanSansCN/SourceHanSansCN-Normal.woff') format('woff'),
+      url('./SourceHanSansCN/SourceHanSansCN-Normal.ttf')  format('truetype'),
+      url('./SourceHanSansCN/SourceHanSansCN-Normal.svg#SourceHanSansCN-Normal') format('svg');
+}
+
+@font-face {
+    font-family: 'SourceHanSansCN-Regular';
+    src: url('./SourceHanSansCN/SourceHanSansCN-Regular.eot');
+    src: url('./SourceHanSansCN/SourceHanSansCN-Regular.eot?#iefix') format('embedded-opentype'),
+      url('./SourceHanSansCN/SourceHanSansCN-Regular.woff') format('woff'),
+      url('./SourceHanSansCN/SourceHanSansCN-Regular.ttf')  format('truetype'),
+      url('./SourceHanSansCN/SourceHanSansCN-Regular.svg#SourceHanSansCN-Regular') format('svg');
+} */

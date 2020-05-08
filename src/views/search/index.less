@@ -1,0 +1,111 @@
+
+.cateGory {
+  .navbor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: SourceHanSansCN-Light;
+    font-size: 14px;
+    color: #000000;
+  }
+  .pages {
+    margin: 15px 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  .content {
+    background: white;
+    padding: 10px;
+    .temp {
+      width: 100%;
+      overflow: hidden;
+      .itemsActive {
+        box-shadow: 0px 0px 5px 0px #bee0e6;
+      }
+      li {
+        float: left;
+        padding:10px;
+
+      }
+    }
+    .classify {
+      width: 100%;
+      border-bottom: dashed 1px #e6e6e6;
+      height: 60px;
+      line-height: 60px;
+      .fyFlex {
+        display: flex;
+        justify-content: space-between;
+      }
+      .left {
+        display: flex;
+        .title {
+          font-family: SourceHanSansCN-Light;
+          color: #999999;
+        }
+        .menu {
+          display: flex;
+          .title {
+            width: 150px;
+          }
+          .text {
+            display: flex;
+            align-items: center;
+            color: #333333;
+            .btn {
+              text-align: center;
+              width: 70px;
+              height: 24px;
+              line-height: 24px;
+              background-color: white;
+              border-radius: 5px;
+              border: solid 1px #e6e6e6;
+              margin: 0 10px;
+              padding: 0;
+            }
+            .btnActive {
+              background-color: #1d8c9f;
+            }
+          }
+        }
+      }
+    }
+    .section {
+      display: flex;
+    }
+    .navBarWrap {
+      position: fixed;
+      top: 0;
+      right: 0;
+      z-index: 999;
+      width: 100%;
+      background: white;
+      -webkit-animation: searchTop 0.5s ease-in-out;
+      animation: searchTop 0.5s ease-in-out;
+      border-bottom: 2px solid #f10214;
+    }
+    .navBarMin {
+      width: 1200px;
+      margin: 0 auto;
+    }
+
+    @keyframes searchTop {
+      from {
+        top: -60px;
+      }
+      to {
+        top: 0px;
+      }
+    }
+
+    @-webkit-keyframes searchTop /*Safari and Chrome*/ {
+      from {
+        top: -60px;
+      }
+      to {
+        top: 0px;
+      }
+    }
+  }
+}
+

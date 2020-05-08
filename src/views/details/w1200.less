@@ -1,0 +1,147 @@
+.details {
+  background: white;
+  margin-top: 1.227vw;
+
+  .heard {
+    font-family: SourceHanSansCN-Light;
+
+    color: #000000;
+  }
+
+  .content {
+    margin-top     : 2.046vw;
+    display        : flex;
+    justify-content: space-between;
+
+    .info {
+      width       : 81.833vw;
+      height      : 36.007vw;
+      display     : flex;
+      border-right: 1px solid #e6e6e6;
+
+      .img {
+        width : 36.007vw;
+        height: 36.007vw;
+        .imgNav{
+          width: 100%;
+          display: flex;
+          justify-content: left;
+          align-items: center;
+          margin-top: 0.704vw;
+          .item{
+            width: 7.922vw;
+            height: 7.922vw;
+          }
+        }
+      }
+
+      .card {
+        width  : 45.827vw;
+        padding: 1.637vw;
+
+        .name {
+          font-family: SourceHanSansCN-Regular;
+          font-size  : 1.760vw;
+          font-weight: bold;
+          color      : #000;
+        }
+
+        .text {
+          display    : flex;
+          align-items: flex-start;
+          width      : 36.825vw;
+          padding    : 0.9vw 0.818vw;
+          color      : #000;
+
+          /deep/ .left {
+            margin-right: 10px;
+          }
+
+          .tit {
+            font-family: SourceHanSansCN-Light;
+            font-size  : 1.232vw;
+            width      : 8.183vw;
+          }
+
+          .cls {
+            display  : flex;
+            flex-wrap: wrap;
+
+            /deep/ .ivu-btn {
+              &:focus {
+                box-shadow: none;
+              }
+
+              &:hover {
+                color: #e1251b;
+              }
+            }
+          }
+
+          .btn1 {
+            text-align      : center;
+            padding         : 0 0.818vw;
+            height          : 1.964vw;
+            line-height     : 1.964vw;
+            background-color: white;
+            border-radius   : 0.409vw;
+            border          : solid 1px #e6e6e6;
+            margin          : 0px 0.818vw 0.818vw 0
+          }
+
+          .btnActive {
+            border: 1px solid #e1251b;
+            color : #e1251b;
+          }
+
+          .num {
+           font-weight: bold;
+            font-size  : 24px;
+            color      : #e1252f;
+          }
+
+          .m_price {
+            font-size      : 1.309vw;
+            text-decoration: line-through;
+            color          : #999;
+            margin-left    : 0.655vw;
+          }
+        }
+      }
+    }
+
+    .recommend {
+      text-align: center;
+
+      .items {
+        width : 11.457vw;
+        height: 11.457vw;
+        margin: 0.818vw 0;
+      }
+    }
+  }
+
+  .introduce {
+    color : #666;
+    border: 1px solid #e6e6e6;
+    width : 81.833vw;
+
+    .did {
+      padding: 10px;
+    }
+  }
+
+  .img {
+    width            : 81.833vw;
+    background-repeat: no-repeat;
+  }
+
+  /deep/.submit {
+    width           : 130px;
+    height          : 40px;
+    background-color: #1d8c9f;
+    border-radius   : 5px;
+    color           : white;
+    margin-left     : 10px;
+  }
+}

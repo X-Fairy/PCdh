@@ -1,0 +1,243 @@
+@text-colorA: #333333;
+
+.itemsActive {
+  box-shadow: 0px 0px 10px 0px #bee0e6;
+}
+
+.goods {
+  height: 28.642vw;
+}
+
+.t_items {
+  position  : relative;
+  margin-top: 20px;
+  width     : 22.504vw;
+  border    : 1px solid #f3f3f3;
+
+  .top {
+
+    height: 22.504vw;
+  }
+
+  .num {
+    background-color: #eeeeee;
+    padding         : 3px;
+    white-space     : nowrap;
+    text-overflow   : ellipsis;
+    overflow        : hidden;
+    word-break      : break-all;
+
+    .s1 {
+      font-size    : 12px;
+      width        : 40%;
+      padding-right: 3px;
+      margin-right : 5px;
+      border-right : 2px solid #e1251b;
+      font-weight  : 100;
+    }
+
+    .s2 {
+      font-size  : 14px;
+      font-weight: 100;
+    }
+  }
+
+  .cart {
+    padding: 0 20px 15px 20px;
+  }
+
+
+  @keyframes mymove {
+    from {
+      left: 0px;
+    }
+
+    to {
+      left: 100%;
+    }
+  }
+
+  @-webkit-keyframes mymove
+
+  /*Safari and Chrome*/
+    {
+    from {
+      left: 0px;
+    }
+
+    to {
+      left: 100%;
+    }
+  }
+
+  .goodsBox {
+    background: #fff;
+  }
+
+  .priceView {
+    display        : flex;
+    justify-content: space-between;
+    padding        : 5px;
+    font-size      : 15px;
+  }
+
+  .numberbox {
+    display         : flex;
+    font-size       : 15px;
+    height          : 2.864vw;
+    justify-content : space-between;
+    background-color: white;
+  }
+
+  .disnum {
+    height          : 24px;
+    min-width       : 24px;
+    background-color: #e1252f;
+    color           : white;
+    font-size       : 12px;
+    line-height     : 24px;
+    padding         : 0 3px;
+  }
+
+  .dis {
+    color        : #e1252f;
+    width        : 0;
+    height       : 0;
+    border-top   : 12px solid transparent;
+    border-left  : 10px solid #e1252f;
+    border-bottom: 12px solid transparent;
+    margin-right : 5px;
+  }
+
+  .cartBtn {
+    position   : relative;
+    display    : flex;
+    align-items: flex-end;
+    margin     : 0.24vw;
+  }
+
+  .cartText {
+    position         : absolute;
+    top              : -0.7vw;
+    right            : 0.818vw;
+    color            : #e1251b;
+    font-size        : 0.982vw;
+    -webkit-transform: scale(0.9);
+  }
+
+  .price {
+    margin-right: 10px;
+    color       : #e1252f;
+    font-weight : bold;
+
+  }
+
+  .ling {
+
+    font-weight: 100;
+  }
+
+  .numberLeft {
+    display    : flex;
+    align-items: center;
+    padding    : 0;
+  }
+
+  .cartImgA {
+    width : 2.128vw;
+    height: 1.964vw;
+  }
+
+  .cartImgB {
+    width        : 1.473vw;
+    height       : 1.473vw;
+    margin-bottom: 1px;
+    margin-right : 0.245vw;
+  }
+}
+
+.group {
+  // border-radius  : 15px;
+  // display        : flex;
+  // flex-wrap      : wrap;
+  // justify-content: space-around;
+  // padding        : 0 20px 20px 20px;
+  border            : 1px solid #f3f3f3;
+
+  .group_items {
+    position        : relative;
+    width           : 22.34vw;
+    height          : 31.915vw;
+    background-color: white;
+
+    .group_img {
+      width : 22.34vw;
+      height: 22.504vw;
+    }
+
+    .group_bottom {
+      font-family: SourceHanSansCN-Regular;
+      text-align : center;
+      color      : @text-colorA;
+      font-size  : 1.227vw;
+      margin-top : 0.518vw;
+    }
+
+    .group_info {
+      padding: 0 1.227vw;
+    }
+
+    .group_cart {
+      margin-top     : 0;
+      display        : flex;
+      justify-content: space-between;
+      align-items    : center;
+
+      .date{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: gray;
+        .end-date{
+          margin-right: 0.880vw;
+        }
+        .end-date,.arrvial-daye{
+          font-size: 1.232vw !important;
+        }
+      }
+      .group_text {
+        color      : #999999;
+        font-family: SourceHanSansCN-Light;
+      }
+
+
+      .group_Btn {
+        position   : relative;
+        display    : flex;
+        align-items: flex-end;
+        margin     : 0.164vw;
+      }
+
+      .group_ImgA {
+        width : 2.128vw;
+        height: 1.964vw;
+      }
+
+      .group_ImgB {
+        width        : 1.473vw;
+        height       : 1.473vw;
+        margin-bottom: 1px;
+        margin-right : 0.245vw;
+      }
+
+      .group_Text {
+        position         : absolute;
+        top              : -1.2vw;
+        right            : 0.818vw;
+        color            : #e1251b;
+        font-size        : 0.982vw;
+        -webkit-transform: scale(0.9);
+      }
+    }
+  }
+}
